@@ -1,0 +1,235 @@
+{
+  "analgesics": [
+    {
+      "name": "Aspirin",
+      "price": 5.00,
+      "image": "Images02/Aspirin.webp",
+      "description": "Aspirin is a medication used to reduce pain, fever, or inflammation.",
+      "weight": "200 mg",
+      "howToUse": "Take 1-2 tablets every 4-6 hours as needed for pain. Do not exceed 12 tablets in 24 hours."
+    },
+    {
+      "name": "Ibuprofen",
+      "price": 7.50,
+      "image": "Images02/Ibuprofen.webp",
+      "description": "Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) used to reduce fever, pain, and inflammation.",
+      "weight": "400 mg",
+      "howToUse": "Take 1 tablet every 6-8 hours with food to reduce the risk of stomach upset."
+    },
+    {
+      "name": "Codeine",
+      "price": 2.50,
+      "image": "Images02/Codeine.webp",
+      "description": "A prescription opioid analgesic used for moderate to severe pain relief. Often combined with paracetamol or ibuprofen.",
+      "weight": "30 mg",
+      "howToUse": "Take 1 tablet every 4-6 hours as needed. Do not exceed 240 mg in 24 hours. Use under medical supervision due to risk of dependence."
+    },
+    {
+      "name": "Diclofenac",
+      "price": 9.00,
+      "image": "Images02/Diclofenac.jpg",
+      "description": "A NSAID used for pain and inflammation in conditions like arthritis, migraines, and muscle injuries.",
+      "weight": "50 mg",
+      "howToUse": "Take 1 tablet (50 mg) two to three times a day with food. For gels, apply a thin layer to the affected area up to 3 times daily."
+    },
+    {
+      "name": "Naproxen",
+      "price": 4.50,
+      "image": "Images02/Naproxen.png",
+      "description": "A nonsteroidal anti-inflammatory drug (NSAID) used for treating pain, inflammation, and stiffness caused by conditions like arthritis and menstrual cramps.",
+      "weight": "250 mg",
+      "howToUse": "ake 1 tablet every 8-12 hours with food or milk to prevent stomach upset. Do not exceed 1250 mg per day unless prescribed by a doctor."
+    },
+    {
+      "name": "Paracetamol",
+      "price": 5.50,
+      "image": "Images02/Paracetamol.webp",
+      "description": "Used to reduce fever and relieve mild to moderate pain",
+      "weight": "500 mg",
+      "howToUse": "Take 1-2 tablets every 4-6 hours as needed."
+    }
+  ],
+  "antibiotics": [
+    {
+      "name": "Amoxicillin",
+      "price": 10.00,
+      "image": "Images02/Amoxicillin.png",
+      "description": "Amoxicillin is an antibiotic used to treat a variety of bacterial infections.",
+      "weight": "500 mg",
+      "howToUse": "Take 1 tablet every 12 hours for 7-10 days, as prescribed by your doctor."
+    },
+    {
+      "name": "Ciprofloxacin",
+      "price": 13.00,
+      "image": "Images02/Ciprofloxacin.png",
+      "description": "A fluoroquinolone antibiotic used to treat bacterial infections such as UTIs, skin infections, and respiratory infections.",
+      "weight": "250 mg",
+      "howToUse": "Take 1 tablet every 12 hours (twice daily) with water. Avoid taking with dairy products or antacids. Continue the course for 5–14 days as prescribed."
+    },
+    {
+      "name": "Azithromycin",
+      "price": 8.00,
+      "image": "Images02/Azithromycin.webp",
+      "description": "A macrolide antibiotic effective against respiratory infections, skin infections, and sexually transmitted infections like chlamydia.",
+      "weight": "500 mg",
+      "howToUse": "Take 500 mg on the first day, followed by 250 mg once daily for the next 4 days. Take on an empty stomach or after a light meal.."
+    },
+    { "name": "Doxycycline",
+      "price": 5.30,
+      "image": "Images02/Doxycycline.jpg",
+      "description": "A tetracycline antibiotic used to treat acne, respiratory infections, malaria prevention, and bacterial infections such as Lyme disease.",
+      "weight": "100 mg",
+      "howToUse": "Take 1 capsule twice daily with food and a full glass of water to avoid stomach irritation. Do not lie down for at least 30 minutes after taking."
+    },
+    {
+      "name": "Clindamycin",
+      "price": 7.00,
+      "image": "Images02/Clindamycin.jpg",
+      "description": "Treats skin, bone, and soft tissue infections.",
+      "weight": "300 mg",
+      "howToUse": "Take 1 capsule every 6 hours with a full glass of water."
+    },
+    {
+      "name": "Penicillin",
+      "price": 6.40,
+      "image": "Images02/Penicillin.jpg",
+      "description": "Treats strep throat, syphilis, and dental infections.",
+      "weight": "500 mg",
+      "howToUse": "Take 1 tablet every 6-8 hours. Complete the full course."
+    }
+  ],
+  "antidepressants": [
+    {
+      "name": "Fluoxetine",
+      "price": 12.00,
+      "image": "Images02/Fluoxetine.jpg",
+      "description": "Fluoxetine is an antidepressant used to treat depression, anxiety, and certain other conditions.",
+      "weight": "20 mg",
+      "howToUse": "Take 1 tablet once a day in the morning. Do not stop taking without consulting your doctor."
+    },
+    {
+      "name": "Sertraline",
+      "price": 10.00,
+      "image": "Images02/Sertraline.webp",
+      "description": "For depression, anxiety, PTSD, and OCD.",
+      "weight": "50 mg",
+      "howToUse": "Take 1 tablet daily in the morning or evening, as prescribed."
+    },
+    {
+      "name": "Escitalopram",
+      "price": 6.00,
+      "image": "Images02/Escitalopram.webp",
+      "description": "For anxiety and depression.",
+      "weight": "10 mg",
+      "howToUse": "Take 1 tablet daily, usually in the morning."
+    },
+    {
+      "name": "Citalopram",
+      "price": 8.00,
+      "image": "Images02/Citalopram.jpg",
+      "description": "For depression and panic disorders.",
+      "weight": "20 mg",
+      "howToUse": "Take 1 tablet once daily with or without food."
+    },
+    {
+      "name": "Duloxetine",
+      "price": 4.00,
+      "image": "Images02/Duloxetine.jpg",
+      "description": "For depression and nerve pain.",
+      "weight": "30 mg",
+      "howToUse": "Take 1 capsule daily. Swallow whole; do not crush or chew."
+    },
+    {
+      "name": "Bupropion",
+      "price": 7.00,
+      "image": "Images02/Bupropion.jpg",
+      "description": "For depression and smoking cessation.",
+      "weight": "150 mg",
+      "howToUse": "Take 1 tablet daily for 3 days, then twice daily. Avoid taking at night."
+    }
+  ],
+  "antihistamines": [
+    {
+      "name": "Cetirizine",
+      "price": 6.00,
+      "image": "Images02/Cetirizine.jpg",
+      "description": "Cetirizine is an antihistamine used to relieve allergy symptoms like runny nose and sneezing.",
+      "weight": "10 mg",
+      "howToUse": "Take 1 tablet once a day. Do not exceed 1 tablet in 24 hours."
+    },
+    {
+      "name": "Loratadine",
+      "price": 5.00,
+      "image": "Images02/Loratadine.png",
+      "description": "For seasonal allergies.",
+      "weight": "10 mg",
+      "howToUse": "Take 1 tablet daily. Safe for long-term use."
+    },
+    {
+      "name": "Diphenhydramine",
+      "price": 6.00,
+      "image": "Images02/Diphenhydramine.png",
+      "description": "For allergy symptoms, motion sickness, and insomnia.",
+      "weight": "25 mg",
+      "howToUse": "Take 1-2 tablets every 4-6 hours. May cause drowsiness.."
+    },
+    {
+      "name": "Fexofenadine",
+      "price": 4.30,
+      "image": "Images02/Fexofenadine.jpg",
+      "description": "For allergy relief.",
+      "weight": "180 mg",
+      "howToUse": "Take 1 tablet daily or 60 mg twice daily. Avoid fruit juices."
+    }
+  ],
+  "antihypertensives": [
+    {
+      "name": "Amlodipine",
+      "price": 8.00,
+      "image": "Images02/Amlodipine.jpg",
+      "description": "For high blood pressure and chest pain.",
+      "weight": "05 mg",
+      "howToUse": "Take 1 tablet daily with or without food."
+    },
+    {
+      "name": "Losartan",
+      "price": 5.00,
+      "image": "Images02/Losartan.png",
+      "description": "For hypertension and kidney protection in diabetes.",
+      "weight": "50 mg",
+      "howToUse": "Take 1 tablet daily with or without food.."
+    },
+    {
+      "name": "Metoprolol",
+      "price": 6.00,
+      "image": "Images02/Metoprolol.webp",
+      "description": "For blood pressure and heart issues.",
+      "weight": "25 mg",
+      "howToUse": "Take 1-2 tablets daily with food. Avoid sudden discontinuation."
+    },
+    {
+      "name": "Lisinopril",
+      "price": 8.00,
+      "image": "Images02/Lisinopril.png",
+      "description": "Lisinopril is used to treat high blood pressure and heart failure.",
+      "weight": "10 mg",
+      "howToUse": "Take 1 tablet once a day, with or without food. Follow your doctor's dosage recommendations."
+    },
+    {
+      "name": "Hydrochlorothiazide",
+      "price": 4.00,
+      "image": "Images02/Hydrochlorothiazide.jpg",
+      "description": "For reducing blood pressure and fluid retention.",
+      "weight": "25 mg",
+      "howToUse": "Take 1 tablet daily in the morning to avoid nighttime urination."
+    },
+    {
+      "name": "Enalapril",
+      "price": 2.00,
+      "image": "Images02/Enalapril.webp",
+      "description": "For hypertension and heart failure.",
+      "weight": "10 mg",
+      "howToUse": "Take 1 tablet daily on an empty stomach for best results."
+    }
+  ]
+}

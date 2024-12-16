@@ -1,0 +1,520 @@
+/* Root Variables */
+:root {
+  --primary-color: #0056b3;
+  --secondary-color: #007BFF;
+  --highlight-color: #ffcc00;
+  --background-color: #f4f4f4;
+  --text-color: #333;
+  --section-bg: #fff;
+  --hover-bg-color: #f0f8ff;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+  background-color: var(--background-color);
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
+/* Header & Navigation */
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px var(--shadow-color);
+}
+
+header nav ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: var(--highlight-color);
+}
+
+#logo {
+  height: 100px;
+  width: 150px;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+/* Main Content */
+main {
+  padding: 2rem 1rem;
+}
+
+h1, h2, h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+.intro img{
+  width: 1500px;
+}
+
+/* Sections */
+section {
+  background: var(--section-bg);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px var(--shadow-color);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  background-color: var(--hover-bg-color);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+  margin-bottom: 1rem;
+}
+
+section p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+section img {
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Styling for the ordered list in the "Why Do Patients Choose Asiri Central Hospital?" section */
+.why-choose-us ol {
+  margin-top: 20px;
+  padding-left: 20px;
+  list-style-type:decimal;
+}
+
+.why-choose-us ol li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+  padding-left: 5px;
+  position: relative;
+}
+
+.why-choose-us ol li::before {
+  font-weight: bold;
+  color: #0066cc;
+  position: absolute;
+  left: 0;
+}
+
+.why-choose-us ol li:hover {
+  background-color: var(--hover-bg-color);
+  transition: background-color 0.3s ease;
+}
+
+/* Grid Section */
+.grid-section ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.grid-section ul li {
+  background-color: var(--hover-bg-color);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px var(--shadow-color);
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.grid-section ul li:hover {
+  background-color: #e6f7ff;
+  transform: scale(1.02);
+}
+
+.grid-section ul li img {
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.grid-section ul li p {
+  font-weight: bold;
+}
+
+/* Flex Gallery */
+.flex-gallery .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.flex-gallery .service-card {
+  background: var(--section-bg);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px var(--shadow-color);
+  flex: 1 1 calc(33.333% - 2rem);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.flex-gallery .service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.flex-gallery .service-card img {
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  transition: opacity 0.3s ease;
+}
+
+.flex-gallery .service-card img:hover {
+  opacity: 0.8;
+}
+
+.flex-gallery .service-card h3 {
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.flex-gallery .service-card p {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.flex-gallery .cta-button {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.flex-gallery .cta-button:hover {
+  background-color: var(--primary-color);
+  transform: scale(1.05);
+}
+
+/* Story Grid */
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.story-item {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.story-item img {
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  transition: opacity 0.3s ease;
+}
+
+.story-item img:hover {
+  opacity: 0.8;
+}
+
+.story-item p {
+  font-weight: bold;
+}
+
+/* Video Section */
+.video-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.video-container iframe {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Latest Updates */
+.circle-list {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+.circle-list li {
+  margin-bottom: 10px;
+}
+
+.latest-updates ul li {
+  background-color: #e9f7ff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px var(--shadow-color);
+  transition: background-color 0.3s ease;
+}
+
+.latest-updates ul li:hover {
+  background-color: #d6eaff;
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top: 5px solid var(--highlight-color);
+  position: relative;
+  font-size: 0.9rem;
+}
+
+footer .footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .footer-section {
+  flex: 1 1 300px;
+  margin: 1rem;
+  padding: 0 1rem;
+}
+
+footer .footer-section h3 {
+  color: var(--highlight-color);
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+footer .footer-section p, footer .footer-section ul {
+  margin-bottom: 1rem;
+}
+
+footer .footer-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer .footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer .footer-section a {
+  color: var(--highlight-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer .footer-section a:hover {
+  color: #fff;
+}
+
+footer .social-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+footer .social-media a {
+  color: var(--highlight-color);
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+footer .social-media a:hover {
+  color: #fff;
+}
+
+/* Tablet and Mobile Adjustments */
+@media (max-width: 768px) {
+  /* Header Adjustments */
+  header nav ul {
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  header nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  /* Main Content Adjustments */
+  main {
+    padding: 1.5rem 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  /* Section Adjustments */
+  section {
+    padding: 1.5rem;
+  }
+
+  .intro img {
+    width: 100%;
+  }
+
+  /* Flex Gallery Adjustments */
+  .flex-gallery .service-card {
+    flex: 1 1 100%;
+  }
+
+  /* Footer Adjustments */
+  footer .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .footer-section {
+    margin: 0.5rem 0;
+  }
+}
+
+/* Mobile Adjustments */
+@media (max-width: 480px) {
+  /* Header Adjustments */
+  header {
+    padding: 0.5rem 0;
+  }
+
+  #logo {
+    height: 70px;
+    width: 100px;
+  }
+
+  header nav ul {
+    padding-left: 10px;
+  }
+
+  header nav ul li {
+    margin: 5px 0;
+    text-align: center;
+  }
+
+  /* Main Content Adjustments */
+  main {
+    padding: 1rem 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  /* Grid Section Adjustments */
+  .grid-section ul {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+
+  /* Flex Gallery Adjustments */
+  .flex-gallery .service-card {
+    flex: 1 1 100%;
+  }
+
+  /* Footer Adjustments */
+  footer .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .footer-section {
+      flex: 1 1 auto;
+      margin: 1rem 0;
+      text-align: center;
+      padding: 0;
+  }
+
+  footer .social-media {
+      flex-wrap: wrap;
+      margin-top: 0.5rem;
+  }
+
+  footer .social-media a {
+      margin: 0.3rem;
+      font-size: 1.2rem;
+  }
+}
